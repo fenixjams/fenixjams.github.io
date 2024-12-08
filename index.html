@@ -13,108 +13,13 @@
             padding: 0;
             scroll-behavior: smooth;
         }
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background-color: #f8d7e3;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-around;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            z-index: 1000;
-        }
-        header a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        section {
-            min-height:100%;
-            height:100%;
-            display: none; /* Hide all sections by default */
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            transition: all 0.5s ease;
-        }
-        #chatting {
-            display: flex; /* Show this section by default */
-            background-color: #ffe4e1;
-        }
-        #about {
-            background-color: #ffcccb;
-        }
-        #gallery {
-            background-color: #ffb6c1;
-        }
-        
-        
-            /* Black overlay div to hide the red circle */
-        #black-overlay {
-           position: absolute;
-           top: 87%;
-           left: 70%;
-           transform: translateX(-50%);
-           width: 300px;
-           height: 45px;
-           background-color: #e7e3e3;
-    bakground: white;
-    border-radius: 1%;
-    z-index: 1001;
-
-
-	       }
-img {
-        position:fixed;   
-           top:30px;     
-            width:100%;
-            height:auto; 
-            
-            border-radius: 1%; 
-            z-inex: 1001; 
+      
         }
     </style>
 </head>
 <body>
 
-<header>
-    <a href="#chatting" onclick="showSection('chatting')"><i class="fas fa-comments"></i> Chatting</a>
-    <a href="#about" onclick="showSection('about')"><i class="fas fa-info-circle"></i> About Us</a>
-    <a href="#gallery" onclick="showSection('gallery')"><i class="fas fa-image"></i> Gallery</a>
-</header>
-
-<section id="chatting">
-	<img src="https://ia800207.us.archive.org/18/items/1_20240315_20240315_0343/000.png">
-	    <!-- Black overlay to cover the red circle -->
-    <div id="black-overlay"></div>
-    <iframe src="https://www5.cbox.ws/box/?boxid=949938&boxtag=E76FAy&tid=1&tkey=86f8428dfc791d1a" width="100%" height="100%" style="border:none;"></iframe>
-</section>
-
-<section id="about">
-    <p>We are a team of passionate individuals dedicated to providing the best services.</p>
-</section>
-
-<section id="gallery">
-    <p>Explore our beautiful gallery of images.</p>
-</section>
-
-
-
-<script>
-    function showSection(sectionId) {
-        // Hide all sections
-        document.querySelectorAll('section').forEach(section => {
-            section.style.display = 'none';
-        });
-        // Show the selected section
-        document.getElementById(sectionId).style.display = 'flex';
-    }
-
-    // Initialize the view with the Chatting section displayed
-    showSection('chatting');
-</script>
+<h1>404 error!!! BYE</h1>h1>
 
 </body>
 </html>
